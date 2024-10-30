@@ -33,4 +33,14 @@ class TaskProvider with ChangeNotifier {
       print(e);
     }
   }
+
+  Future <void> deleteTask (String id) async {
+    try {
+      await _repo.deleteTask(id);
+      _tasks.removeWhere((task) => task.id == id);
+      notifyListeners();
+    } catch (e) {
+      print(e);
+    }
+  }
 }
