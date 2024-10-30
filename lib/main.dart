@@ -14,6 +14,9 @@ Future<void> main() async {
         'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBjbHhtZ3Rwa2ZvaWJtZWd1Z3RkIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjcxMDM2NjUsImV4cCI6MjA0MjY3OTY2NX0.cxtdnGrNS8ve89F3ZL60VV5CvvA9WrV6piRfuaOUIcU',
   );
 
+// url: 'https://lfsdhifttuhzxsdnojza.supabase.co',
+// anonKey: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxmc2RoaWZ0dHVoenhzZG5vanphIiwicm9sZSI6ImFub24iLCJpYXQiOjE3Mjg0MzQ2NTYsImV4cCI6MjA0NDAxMDY1Nn0.m-QSE0SgBWTj2fTJ6f7Hr_KcX8KhhGzUEuwEwKG1CFg',
+  
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(
